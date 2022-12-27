@@ -12,12 +12,12 @@ public class GreetingsController {
 
     @GetMapping(path="hello")
     public String hello(){
-        return"Hello I'm a SpringBoot Application";
+        return"Hello";
     }
 
     @GetMapping(path="goodbye")
     public String goodbye(){
-        return "Bye, bye, see you around soon";
+        return "GoodBye";
     }
 
 }
